@@ -1,0 +1,16 @@
+// 1. require cors in the app.js file
+// 2. call express in a app variable (app=express())
+// 3.use this app 
+// 4.require this app in the server.js file, require dotenv and set basic route
+// 5. now create a db.js file and require mongoose as well as write a connectDB function. use mongo uri inside this function and export this function.
+// async function connectDB(){
+//     try{
+//         await mongoose.connect(process.env.MONGO_URI)
+//         console.log('connected to db')
+
+//     } catch(error){
+//         console.error("db connection error:",error)
+//     }
+// }
+
+// 6. require coonectdb and call it in the Server.js file
